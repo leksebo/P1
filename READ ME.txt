@@ -1,15 +1,12 @@
-1) About The Project
+1) Project Title
 
-	-built with
+	
 
-2) Getting started
+2) Project Description
 
-	-Prerequisites
-	-Installation
-
-3) Usage
-4) Roadmap
-5) Contributing
-6) License
-7) Contact
+3) Table of Contents
+4) How to install	
+5) How to use
+6) Include Credits
+7) Add a license
 8) Acknowledgments
