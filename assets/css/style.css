@@ -1,26 +1,199 @@
+/*For Gallery*/
 
-	body {
-		background-color : navy;
-		}
+div.scroll-container {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	padding: `10px;
+	
+}
+
+div.scroll-container img {
+	padding: 10px;
+}
+	
+/*For Navigation*/
+
+header img {
+	height: 80px;
+	margin-left: 40px;
+
+}
+
+
+
+body {
+	height: 125vh;
+	background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 80px;
+	padding: 30px;
+	box-shadow: 0 0 25px 0 black;
+}
+
+main {
+	color: white;
+}
+
+header {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	display: flex;
+	align-items: center;
+
+}
+
+header * {
+	display: inline;
+}
+
+header li {
+	margin: 20px;
+	
+}
+
+header li a {
+	color: #1e4b6b
+	text-decoration: none;
+
+
+}
+
+
+h1 {
+	text-align: right;
+	color: #1e4b6b;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 250%;
+	background-color: #813395;
+}
+
+h2 {
+	color: #1e4b6b;
+}
+
+h3 {
+	color: #1e4b6b;
+}
+
+a {
+	color: #1e4b6b
+}
+
+a:link, a:visited {
+	background-color:rgb(217, 217, 34)
+}
+footer {
+	text-align: center;
+	color: rgba(0, 162, 255, 0.208);
+	width: 100%;
 	
 	
-	h1 {
-		color : whitesmoke;	
-		}
-		
-	h3 {
-		background-color : red;
-		}
-		
-	p {
-		color : white;
-		}
-		
-	ul {
-		background-color : blue;
-		}
 	
-	ol {
-		color : yellow;
-		}
+}
+body{
+	background-color: white;
+
+/*For Contact Page*/
+
+}
+.container {
+	padding: 90px;
+	border: 1px solid;
+	margin-bottom: 10%;
+	padding: 2px 16px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
 	
+	
+}
+.container:hover {
+	border: 5px solid rgb(217, 217, 34)
+}
+.text {
+	font-size: 70%;
+	padding-left: 0cqb;
+}
+
+
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+}
+
+
+input[type=submit] {
+	background-color: #1e4b6b;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+}
+
+
+input[type=submit]:hover {
+	background-color: rgb(217, 217, 34)
+}
+
+/*All Paragraphs*/
+
+p {
+	background-color: #1e4b6b;
+	color: white;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;	
+	font-size: large;
+}
+
+
+
+.flyers {
+	border: 5px solid black;
+	width: 100%;
+	
+}
+
+.notes {
+	background-color: #1e4b6b;
+	border: 5px solid black;
+	
+}
+
+
+
+.container-box {
+	display: flex;
+	column-gap: 20px; 
+	position: absolute;
+	center: 0px;
+}
+
+.btn {
+	background-color: yellow;
+	color: black;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 250;
+	
+}
